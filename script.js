@@ -38,3 +38,10 @@ console.log(`Exercise 3 Result:`, isCharAVowel("a"));
 
 // Exercise 4
 
+const generateEmail = (inputA, inputB) => {
+    return inputA + inputB;
+}
+console.log(`Exercise 4 result:`, generateEmail("johnsmith@", "example.com"));
+
+// Exercise 5
+
