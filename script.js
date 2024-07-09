@@ -53,3 +53,18 @@ console.log(`Exercise 5 Result:`, greetUser(" Lindley.","Good Evening,"));
 
 // Exercise 6
 
+const maxOfThree = (a, b, c) => {
+    if (a >= b || c) {
+    return a
+} if  (b >= a || c) {
+        return b
+}
+  if (c >= b || a){
+    return c
+  }
+}
+
+
+console.log(`Exercise 6 Result:`, maxOfThree(16, 1, 5));
+
+// Exercise 7
