@@ -45,3 +45,11 @@ console.log(`Exercise 4 result:`, generateEmail("johnsmith@", "example.com"));
 
 // Exercise 5
 
+const greetUser = (user, time) => {
+    return time + user;
+}
+
+console.log(`Exercise 5 Result:`, greetUser(" Lindley.","Good Evening,"));
+
+// Exercise 6
+
