@@ -23,3 +23,18 @@ const isAdult = (number) => {
 }
 
 console.log(`Exercise 2 Result:`, isAdult(19));
+
+// Exercise 3
+
+const isCharAVowel = (letter) => {
+    if (letter = "a" || "e" || "o" || "u" || "i" ) {
+        return "True";
+    }else {
+    return "False";
+    }
+}
+
+console.log(`Exercise 3 Result:`, isCharAVowel("a"));
+
+// Exercise 4
+
