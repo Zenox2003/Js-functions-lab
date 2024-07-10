@@ -74,3 +74,18 @@ const calculateTip = (numA, numB) => {
     return numA * numB;
 }
 console.log(`Exercise 7 Result:`, calculateTip(50, 20));
+
+// Exercise 8
+
+const convertTemperature = (temp, typeOfTemp) => {
+    if (typeOfTemp === "F") {
+    return (temp - 32) * (5/9) + " C";
+    } if (typeOfTemp === "C") {
+    return temp * (9/5) + 32 + " F";
+    }
+}
+
+console.log(`Exercise 8 Result:`, convertTemperature(36, "F"));
+
+// Exercise 9
+
