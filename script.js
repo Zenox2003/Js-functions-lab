@@ -89,3 +89,19 @@ console.log(`Exercise 8 Result:`, convertTemperature(36, "F"));
 
 // Exercise 9
 
+const basicCalculator = (numA, numB, operation) => {
+    if (operation === "add"){
+    return numA + numB;
+    }
+    if (operation === "subtract"){
+        return numA - numB;
+        }
+        if (operation === "multiply"){
+            return numA * numB;
+            }
+            if (operation === "divide"){
+                return numA / numB;
+                }
+}
+
+console.log(`Exercise 9 Result:`, basicCalculator(10, 2, "multiply"));
