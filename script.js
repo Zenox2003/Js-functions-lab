@@ -68,3 +68,9 @@ const maxOfThree = (a, b, c) => {
 console.log(`Exercise 6 Result:`, maxOfThree(0, 15, 5));
 
 // Exercise 7
+
+const calculateTip = (numA, numB) => {
+     numB = numB/100
+    return numA * numB;
+}
+console.log(`Exercise 7 Result:`, calculateTip(50, 20));
