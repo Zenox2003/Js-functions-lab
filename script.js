@@ -27,7 +27,7 @@ console.log(`Exercise 2 Result:`, isAdult(19));
 // Exercise 3
 
 const isCharAVowel = (letter) => {
-    if (letter = "a" || "e" || "o" || "u" || "i" ) {
+    if (letter === "a" || "e" || "o" || "u" || "i" ) {
         return "True";
     }else {
     return "False";
@@ -39,9 +39,9 @@ console.log(`Exercise 3 Result:`, isCharAVowel("a"));
 // Exercise 4
 
 const generateEmail = (inputA, inputB) => {
-    return inputA + inputB;
+    return inputA + "@" + inputB;
 }
-console.log(`Exercise 4 result:`, generateEmail("johnsmith@", "example.com"));
+console.log(`Exercise 4 result:`, generateEmail("johnsmith", "example.com"));
 
 // Exercise 5
 
@@ -49,7 +49,7 @@ const greetUser = (user, time) => {
     return time + user;
 }
 
-console.log(`Exercise 5 Result:`, greetUser(" Lindley.","Good Evening,"));
+console.log(`Exercise 5 Result:`, greetUser(" Lindley","Good Evening,"));
 
 // Exercise 6
 
@@ -105,3 +105,5 @@ const basicCalculator = (numA, numB, operation) => {
 }
 
 console.log(`Exercise 9 Result:`, basicCalculator(10, 2, "multiply"));
+
+// Exercise 10
